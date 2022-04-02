@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a129e0f04f056264d9c5730ce711b2fc, type: 3}
+  m_Name: EditorConfigData
+  m_EditorClassIdentifier: 
+  MainWindow_LeftFuncsSelectedIndex: 0
+  AssetManagerWindow_TopFuncsSelectedIndex: 1
+  BuildRules:
+  - Path: Assets/ResPackage/Audio
+    Filter: '*.*'
+    ExcludeFilter: '*.meta'
+    LabelIndex: 0
+    FileList: []
+  - Path: Assets/ResPackage/Icon
+    Filter: '*.*'
+    ExcludeFilter: '*.meta'
+    LabelIndex: 0
+    FileList: []
+  - Path: Assets/ResPackage/Lua
+    Filter: '*.*'
+    ExcludeFilter: '*.meta|*.txt'
+    LabelIndex: 1
+    FileList:
+    - Assets/ResPackage/Lua/CustomScripts/CommonScripts/CommonModules/Protocol/ActivityProtocol.bytes
+    - Assets/ResPackage/Lua/CustomScripts/CommonScripts/CommonModules/Protocol/AuthProtocol.bytes
+    - Assets/ResPackage/Lua/CustomScripts/CommonScripts/CommonModules/Protocol/ChatMgrProtocol.bytes
+    - Assets/ResPackage/Lua/CustomScripts/CommonScripts/CommonModules/Protocol/ChatProtocol.bytes
+    - Assets/ResPackage/Lua/CustomScripts/CommonScripts/CommonModules/Protocol/Common.bytes
+    - Assets/ResPackage/Lua/CustomScripts/CommonScripts/CommonModules/Protocol/CommonDefine.bytes
+    - Assets/ResPackage/Lua/CustomScripts/CommonScripts/CommonModules/Protocol/CommonProto.bytes
+    - Assets/ResPackage/Lua/CustomScripts/CommonScripts/CommonModules/Protocol/DbProtocol.bytes
+    - Assets/ResPackage/Lua/CustomScripts/CommonScripts/CommonModules/Protocol/GmProtocol.bytes
+    - Assets/ResPackage/Lua/CustomScripts/CommonScripts/CommonModules/Protocol/LobbyProtocol.bytes
+    - Assets/ResPackage/Lua/CustomScripts/CommonScripts/CommonModules/Protocol/LockProtocol.bytes
+    - Assets/ResPackage/Lua/CustomScripts/CommonScripts/CommonModules/Protocol/LoginProtocol.bytes
+    - Assets/ResPackage/Lua/CustomScripts/CommonScripts/CommonModules/Protocol/LogProtocol.bytes
+    - Assets/ResPackage/Lua/CustomScripts/CommonScripts/CommonModules/Protocol/RedisProtocol.bytes
+  - Path: Assets/ResPackage/UI
+    Filter: '*.*'
+    ExcludeFilter: '*.meta'
+    LabelIndex: 0
+    FileList: []
+  - Path: Assets/ResPackage/Model
+    Filter: '*.*'
+    ExcludeFilter: '*.meta'
+    LabelIndex: 0
+    FileList: []
+  LabelList:
+  - Default
+  - Lua

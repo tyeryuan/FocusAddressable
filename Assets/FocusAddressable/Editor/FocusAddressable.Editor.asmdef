@@ -1,0 +1,17 @@
+{
+    "name": "FocusAddressable.Editor",
+    "references": [
+        "GUID:55d1866e31f5b5840934fac931584e15"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
